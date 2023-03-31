@@ -9,10 +9,12 @@ public class PractiseSpringConfigApplication {
 	@Autowired
 	static Bike bike;
 
+	@Autowired
+	static Bike bike;
+
 	public static void main(String[] args) {
 		SpringApplication.run(PractiseSpringConfigApplication.class, args);
 		bike.run();
 
 	}
-
 }
